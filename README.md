@@ -6,6 +6,8 @@ Download Qt Creator and run it in your pc.
 
 Download Sqlite and include it in environmental variables.
 
+Open Command prompt and write sqlite3 to add sqlite in your pc.
+
 Clone this github repository.
 
 Open repository files in Qt Creator.
