@@ -3,6 +3,7 @@ Developing a Hotel Management System using OOP principles in Qt C++. Features in
 
 # How to run this project:
 Download Qt Creator and run it in your pc.
+
 https://www.youtube.com/watch?v=OoVNt-KJ96w
 
 Download Sqlite and include it in environmental variables.
