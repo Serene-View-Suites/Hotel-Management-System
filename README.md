@@ -23,36 +23,4 @@ Include database files in your required directories.
 Run the program.
 
 
-HomePage
-
-![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Main.PNG)
-
-
-Admin Portal
-
-![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Admin.PNG)
-
-Admin Page
-
-![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/AdminPage.PNG)
-
-Customer Sign Up
-
-![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Reg.PNG)
-
-Customer Sign In
-
-![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/SignIn.PNG)
-
-Customer Page
-
-![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Customer.PNG)
-
-
-Room Booking
-
-![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Booking.PNG)
-
-
-
 # Enjoy!!!
