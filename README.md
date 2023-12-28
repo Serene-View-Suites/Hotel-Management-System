@@ -32,4 +32,18 @@ Admin Portal
 
 ![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Admin.PNG)
 
+Admin Page
+
+![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/AdminPage.PNG)
+
+Customer Sign Up
+
+![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Reg.PNG)
+
+Customer Sign In
+
+![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/SignIn.PNG0)
+
+
+
 # Enjoy!!!
