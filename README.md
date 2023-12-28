@@ -42,7 +42,7 @@ Customer Sign Up
 
 Customer Sign In
 
-![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/SignIn.PNG0)
+![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/SignIn.PNG)
 
 
 
