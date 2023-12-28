@@ -44,6 +44,14 @@ Customer Sign In
 
 ![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/SignIn.PNG)
 
+Customer Page
+
+![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Customer.PNG)
+
+Room Booking
+
+![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Booking.PNG)
+
 
 
 # Enjoy!!!
