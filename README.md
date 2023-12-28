@@ -22,5 +22,19 @@ Include database files in your required directories.
 
 Run the program.
 
+SCREENSHOTS OF THE PROJECT:
+
+MAIN PAGE:
+
+![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Main.PNG)
+
+ADMIN PORTAL:
+
+![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Admin.PNG)
+
+ADMIN PAGE:
+
+![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/AdminPage.PNG)
+
 
 # Enjoy!!!
