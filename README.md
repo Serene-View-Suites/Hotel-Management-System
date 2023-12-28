@@ -22,7 +22,7 @@ Include database files in your required directories.
 
 Run the program.
 
-SCREENSHOTS OF THE PROJECT:
+# SCREENSHOTS OF THE PROJECT:
 
 MAIN PAGE:
 
