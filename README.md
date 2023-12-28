@@ -29,6 +29,7 @@ HomePage
 
 
 Admin Portal
+
 ![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Admin.PNG)
 
 # Enjoy!!!
