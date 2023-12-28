@@ -36,5 +36,25 @@ ADMIN PAGE:
 
 ![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/AdminPage.PNG)
 
+CUSTOMER SIGN UP:
+
+![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Reg.PNG)
+
+CUSTOMER SIGN IN:
+
+![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/SignIn.PNG)
+
+CUSTOMER PAGE:
+
+![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Customer.PNG)
+
+ROOM BOOKINGS:
+
+![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Booking.PNG)
+
+RESERVATION PAGE:
+
+![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Reservation.PNG)
+
 
 # Enjoy!!!
