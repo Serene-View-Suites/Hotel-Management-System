@@ -50,7 +50,7 @@ CUSTOMER PAGE:
 
 ROOM BOOKINGS:
 
-![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Booking.PNG)
+![Image Text](https://github.com/Serene-View-Suites/Hotel-Management-System/blob/main/Screenshots/Bookings.jpg)
 
 RESERVATION PAGE:
 
