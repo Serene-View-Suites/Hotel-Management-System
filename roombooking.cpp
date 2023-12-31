@@ -17,7 +17,7 @@ RoomBooking::RoomBooking(QWidget *parent) :
     ptrCheck = new CheckOut();
     ptrCheck2 = new Checkout2();
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -38,7 +38,7 @@ RoomBooking::~RoomBooking()
 
 void RoomBooking::loadButtonStates() {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -68,7 +68,7 @@ void RoomBooking::loadButtonStates() {
 
 void RoomBooking::on_pushButton_10_clicked() {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -103,7 +103,7 @@ void RoomBooking::on_pushButton_10_clicked() {
 
 void RoomBooking::saveButtonState(const QString& buttonName, bool pressed) {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -132,7 +132,7 @@ void RoomBooking::saveButtonState(const QString& buttonName, bool pressed) {
 void RoomBooking::on_pushButton_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -169,7 +169,7 @@ void RoomBooking::on_pushButton_clicked()
 void RoomBooking::on_pushButton_2_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -205,7 +205,7 @@ void RoomBooking::on_pushButton_2_clicked()
 void RoomBooking::on_pushButton_3_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -242,7 +242,7 @@ void RoomBooking::on_pushButton_3_clicked()
 void RoomBooking::on_pushButton_4_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -280,7 +280,7 @@ void RoomBooking::on_pushButton_4_clicked()
 void RoomBooking::on_pushButton_5_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -318,7 +318,7 @@ void RoomBooking::on_pushButton_5_clicked()
 void RoomBooking::on_pushButton_6_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -356,7 +356,7 @@ void RoomBooking::on_pushButton_6_clicked()
 void RoomBooking::on_pushButton_7_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -394,7 +394,7 @@ void RoomBooking::on_pushButton_7_clicked()
 void RoomBooking::on_pushButton_8_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -430,7 +430,7 @@ void RoomBooking::on_pushButton_8_clicked()
 
 void RoomBooking::on_pushButton_9_clicked()
 {        QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -468,7 +468,7 @@ void RoomBooking::on_pushButton_9_clicked()
 void RoomBooking::on_pushButton_11_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -505,7 +505,7 @@ void RoomBooking::on_pushButton_11_clicked()
 
 void RoomBooking::on_pushButton_12_clicked()
 {          QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -543,7 +543,7 @@ void RoomBooking::on_pushButton_12_clicked()
 void RoomBooking::on_pushButton_13_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -581,7 +581,7 @@ void RoomBooking::on_pushButton_13_clicked()
 void RoomBooking::on_pushButton_14_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -619,7 +619,7 @@ void RoomBooking::on_pushButton_14_clicked()
 void RoomBooking::on_pushButton_15_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -657,7 +657,7 @@ void RoomBooking::on_pushButton_15_clicked()
 void RoomBooking::on_pushButton_16_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -695,7 +695,7 @@ void RoomBooking::on_pushButton_16_clicked()
 void RoomBooking::on_pushButton_27_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -730,7 +730,7 @@ void RoomBooking::on_pushButton_27_clicked()
 
 void RoomBooking::on_pushButton_31_clicked(){
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -765,7 +765,7 @@ void RoomBooking::on_pushButton_31_clicked(){
 }
 void RoomBooking::on_pushButton_21_clicked()
 {    QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -801,7 +801,7 @@ void RoomBooking::on_pushButton_21_clicked()
 void RoomBooking::on_pushButton_17_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -837,7 +837,7 @@ void RoomBooking::on_pushButton_17_clicked()
 void RoomBooking::on_pushButton_22_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -873,7 +873,7 @@ void RoomBooking::on_pushButton_22_clicked()
 void RoomBooking::on_pushButton_29_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -909,7 +909,7 @@ void RoomBooking::on_pushButton_29_clicked()
 void RoomBooking::on_pushButton_20_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -945,7 +945,7 @@ void RoomBooking::on_pushButton_20_clicked()
 void RoomBooking::on_pushButton_23_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -981,7 +981,7 @@ void RoomBooking::on_pushButton_23_clicked()
 void RoomBooking::on_pushButton_30_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -1016,7 +1016,7 @@ void RoomBooking::on_pushButton_30_clicked()
 
 void RoomBooking::on_pushButton_24_clicked()
 {       QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -1052,7 +1052,7 @@ void RoomBooking::on_pushButton_24_clicked()
 void RoomBooking::on_pushButton_26_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -1088,7 +1088,7 @@ void RoomBooking::on_pushButton_26_clicked()
 void RoomBooking::on_pushButton_32_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -1124,7 +1124,7 @@ void RoomBooking::on_pushButton_32_clicked()
 void RoomBooking::on_pushButton_18_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -1160,7 +1160,7 @@ void RoomBooking::on_pushButton_18_clicked()
 void RoomBooking::on_pushButton_19_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -1196,7 +1196,7 @@ void RoomBooking::on_pushButton_19_clicked()
 void RoomBooking::on_pushButton_25_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";
@@ -1232,7 +1232,7 @@ void RoomBooking::on_pushButton_25_clicked()
 void RoomBooking::on_pushButton_28_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/roombooking/mydatabase.sqlite");
+    db.setDatabaseName("roombooking.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to open database";

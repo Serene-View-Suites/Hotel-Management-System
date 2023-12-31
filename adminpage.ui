@@ -22,8 +22,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>80</y>
+      <x>30</x>
+      <y>240</y>
       <width>231</width>
       <height>71</height>
      </rect>
@@ -41,8 +41,8 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>170</y>
+      <x>360</x>
+      <y>110</y>
       <width>231</width>
       <height>71</height>
      </rect>
@@ -60,10 +60,10 @@
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>460</y>
-      <width>101</width>
-      <height>51</height>
+      <x>360</x>
+      <y>360</y>
+      <width>231</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="font">
@@ -105,8 +105,8 @@
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>350</y>
+      <x>30</x>
+      <y>360</y>
       <width>231</width>
       <height>71</height>
      </rect>
@@ -124,8 +124,8 @@
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>260</y>
+      <x>360</x>
+      <y>240</y>
       <width>231</width>
       <height>71</height>
      </rect>
@@ -159,6 +159,25 @@
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>110</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Available Rooms</string>
+    </property>
+   </widget>
    <zorder>label_2</zorder>
    <zorder>pushButton</zorder>
    <zorder>pushButton_2</zorder>
@@ -166,6 +185,7 @@
    <zorder>label</zorder>
    <zorder>pushButton_4</zorder>
    <zorder>pushButton_5</zorder>
+   <zorder>pushButton_6</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

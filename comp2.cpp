@@ -29,7 +29,7 @@ void comp2::on_pushButton_clicked()
     QString Complaint1 = ui->lineEdit->text().trimmed();
 
     db9 = QSqlDatabase::addDatabase("QSQLITE");
-    db9.setDatabaseName("D:/New folder/mydb2/mydatabase.sqlite");
+    db9.setDatabaseName("complaints.sqlite");
 
     if (!db9.open()) {
         qDebug() << "Error: Failed to connect to database.";

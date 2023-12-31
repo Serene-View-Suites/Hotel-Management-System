@@ -6,6 +6,8 @@ AdminPage::AdminPage(QWidget *parent) :
     ui(new Ui::AdminPage)
 {
     ui->setupUi(this);
+    ptrBooking = new RoomBooking();
+
     ptrAvail = new availableRooms();
     ptrTransactions = new Transactions();
     ptrComp = new complaintsAdmin();
@@ -47,5 +49,11 @@ void AdminPage::on_pushButton_4_clicked()
 void AdminPage::on_pushButton_5_clicked()
 {
     ptrTransactions2->show();
+}
+
+
+void AdminPage::on_pushButton_6_clicked()
+{
+    ptrBooking->show();
 }
 

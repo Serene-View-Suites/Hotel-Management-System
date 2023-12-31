@@ -15,7 +15,7 @@ Transactions::Transactions(QWidget *parent) :
 
     // Set up the database connection
     db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/checkout2/mydatabase.sqlite");
+    db.setDatabaseName("checkout2.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to connect to database.";

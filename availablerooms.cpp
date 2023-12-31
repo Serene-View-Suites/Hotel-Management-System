@@ -13,7 +13,7 @@ availableRooms::availableRooms(QWidget *parent) :
 {
     ui->setupUi(this);
     db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/information/mydatabase.sqlite");
+    db.setDatabaseName("information.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to connect to database.";

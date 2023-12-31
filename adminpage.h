@@ -4,6 +4,8 @@
 #include "transactions.h"
 #include"complaintsadmin.h"
 #include "transactions2.h"
+#include "roombooking.h"
+
 #include <QMainWindow>
 
 namespace Ui {
@@ -29,8 +31,12 @@ private slots:
 
     void on_pushButton_5_clicked();
 
+    void on_pushButton_6_clicked();
+
 private:
     Ui::AdminPage *ui;
+    RoomBooking *ptrBooking;
+
     availableRooms *ptrAvail;
     Transactions *ptrTransactions;
     complaintsAdmin *ptrComp;

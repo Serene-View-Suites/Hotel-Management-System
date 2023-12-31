@@ -12,7 +12,7 @@ sign::sign(QWidget *parent) : QMainWindow(parent), ui(new Ui::sign) {
     ptrattributes = new Attributes;
     // Database connection
     db2 = QSqlDatabase::addDatabase("QSQLITE");
-    db2.setDatabaseName("D:/New folder/information/mydatabase.sqlite");
+    db2.setDatabaseName("information.sqlite");
     if (!db2.open()) {
         qDebug() << "Error: Failed to connect to database.";
     } else {

@@ -21,6 +21,9 @@ private slots:
     void on_pushButton_clicked();
 
 private:
+    QSettings settings;
+    QSqlDatabase checkboxDb;
+
     Ui::complaintsAdmin *ui;
     QSqlDatabase db;
 

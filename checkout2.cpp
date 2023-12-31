@@ -35,7 +35,7 @@ void Checkout2::on_pushButton_clicked() {
 
         // Establish a connection to the database
         QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-        db.setDatabaseName("D:/New folder/checkout2/mydatabase.sqlite");
+        db.setDatabaseName("checkout2.sqlite");
 
         if (!db.open()) {
             qDebug() << "Error: Failed to connect to the database.";
@@ -71,13 +71,14 @@ void Checkout2::on_pushButton_clicked() {
                                                               "Number of Days: " + QString::number(numberOfDays) +
                                                                   "\nTotal Rent: $" + QString::number(totalRent));
             }
+            QMessageBox::StandardButton reply;
+            reply = QMessageBox::question(this, "Hotel Management System", "Do you want to download your receipt?", QMessageBox::Yes | QMessageBox::No);
+            if (reply == QMessageBox::Yes){
+                generateAndSavePDF(Name, Age, numberOfDays, totalRent);
+            }
+            this->hide();
         }
-        QMessageBox::StandardButton reply;
-        reply = QMessageBox::question(this, "Hotel Management System", "Do you want to download your receipt?", QMessageBox::Yes | QMessageBox::No);
-        if (reply == QMessageBox::Yes){
-            generateAndSavePDF(Name, Age, numberOfDays, totalRent);
-        }
-        this->hide();
+
 
     }
 }

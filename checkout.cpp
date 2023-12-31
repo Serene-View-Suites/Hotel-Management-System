@@ -35,7 +35,7 @@ void CheckOut::on_pushButton_3_clicked() {
 
         // Establish a connection to the database
         QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-        db.setDatabaseName("D:/New folder/checkout/mydatabase.sqlite");
+        db.setDatabaseName("checkout.sqlite");
 
         if (!db.open()) {
             qDebug() << "Error: Failed to connect to the database.";

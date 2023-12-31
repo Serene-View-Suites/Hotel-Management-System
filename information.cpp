@@ -18,7 +18,7 @@ Information::Information(QWidget *parent) : QMainWindow(parent), ui(new Ui::Info
 
     // Database connection moved to class member
     db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/New folder/information/mydatabase.sqlite");
+    db.setDatabaseName("information.sqlite");
 
     if (!db.open()) {
         qDebug() << "Error: Failed to connect to database.";
